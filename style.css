@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eeff7d; 
+    color: #101010;
+    margin: 0;
+    padding: 10px;
+}
+
+#header {
+    background-color: #e6c9a3; 
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#header h1 {
+    margin: 0 0 10px 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #000000;
+}
+
+blockquote {
+    background-color: #ffd700;
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.1;
+    color: #000000;
+}
+
+#soekarno {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+div > ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 17px 0;
+    text-align: center;
+}
+
+div > ul > li {
+    display: inline;
+    margin: 0 10px;
+}
+
+div > ul > li > a {
+    text-decoration: none;
+    color: #0000ff; 
+    font-weight: bold;
+    font-size: 15px;
+}
+
+div > ul > li > a:hover {
+    text-decoration: underline;
+}
+
+
+.gambar, .koleksi {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.gambar img, .koleksi img {
+    width: 210px;
+    height: 170px;
+    object-fit: cover;
+    margin: 5px;
+    border: 1px;
+}
+
+
+.isi p:first-of-type::first-letter {
+    font-size: 60pxu;
+    float: left;
+    color: #0000ff;
+    line-height: 40px;
+    padding-right: 5px;
+    padding-top: 3px;
+    font-weight: normal;
+}
+
+
+.isi, #profil, #beternak {
+    margin-bottom: 15px;
+    font-size: 13px;
+    line-height: 1.3;
+}
+
+.isi p {
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.jawa {
+    font-weight: bold;
+}
+
+
+#profil h3, #beternak h3 {
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+#profil ul {
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+#profil li {
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+#beternak ol {
+    padding-left: 20px;
+    margin-top: 5px;
+}
+
+#beternak li {
+    margin-bottom: 10px;
+}
+
+#beternak h4 {
+    display: inline;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#beternak p {
+    margin: 5px 0 0 0;
+    text-align: justify;
+}
+
+
+.promo {
+    text-align: center;
+    margin-top: 1px;
+}
+
+.promo h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1px;
+}
+
+.promo h3 {
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+.promo del {
+    color: #ff0000; 
+}
+
+.promo strong {
+    color: #ff0000; 
+    font-weight: bold;
+}
+
+#Wa {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.promo h4 {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.promo ol {
+    list-style-type: none;
+    padding: 1px;
+    margin: -4px;
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+}
+
+.promo ol li a {
+    display: inline-block;
+    background-color: #0741ee; 
+    color: #ffffff; 
+    text-decoration: none;
+    padding: 7px 1px;
+    font-size: 15px;
+}
